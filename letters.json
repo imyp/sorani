@@ -158,7 +158,8 @@
     "kurdish": "ک",
     "latin": "k",
     "hamza": false,
-    "connects": true
+    "connects": true,
+    "specialEndAlone": "ك"
   },
   {
     "name": "ga",

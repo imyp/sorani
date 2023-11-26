@@ -7,6 +7,7 @@ import letters from "./letters.json" assert { type: "json"};
  * @prop {string} latin
  * @prop {boolean} hamza
  * @prop {boolean} connects
+ * @prop {undefined | string} specialEndAlone
  */
 
 const hamzaLetter = "ئ";
@@ -21,8 +22,8 @@ const connector = "ـ";
 function createLetterString(letter){
   const start = (letter.hamza ? hamzaLetter + letter.kurdish : letter.kurdish) + (letter.connects ? connector : "");
   const middle = connector + letter.kurdish + (letter.connects ? connector : "");
-  const end = connector + letter.kurdish;
-  const alone = letter.kurdish;
+  const end = connector + (letter.specialEndAlone ? letter.specialEndAlone : letter.kurdish);
+  const alone = (letter.specialEndAlone ? letter.specialEndAlone : letter.kurdish);
   return letter.latin + " " + start + " " + middle + " " + end + " " + alone;
 }
 
