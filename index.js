@@ -22,8 +22,8 @@ function createLetterString(letter){
   const start = (letter.hamza ? hamzaLetter + letter.kurdish : letter.kurdish) + (letter.connects ? connector : "");
   const middle = connector + letter.kurdish + (letter.connects ? connector : "");
   const end = connector + letter.kurdish;
-  const alone = letter.hamza ? hamzaLetter + letter.kurdish : letter.kurdish;
-  return start + " " + middle + " " + end + " " + alone;
+  const alone = letter.kurdish;
+  return letter.latin + " " + start + " " + middle + " " + end + " " + alone;
 }
 
 /**
@@ -36,7 +36,7 @@ function createLetterElement(letter) {
   return newElement;
 }
 
-const body = document.querySelector("body");
-letters.forEach((letter)=>body.appendChild(createLetterElement(letter)));
+const div = document.querySelector("div");
+letters.forEach((letter)=>div.appendChild(createLetterElement(letter)));
 
 

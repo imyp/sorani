@@ -1,19 +1,5 @@
 [
   {
-    "name": "aleph",
-    "kurdish": "ا",
-    "latin": "â",
-    "hamza": true,
-    "connects": false
-  },
-  {
-    "name": "a",
-    "kurdish": "ە",
-    "latin": "e",
-    "hamza": true,
-    "connects": false
-  },
-  {
     "name": "ba",
     "kurdish": "ب",
     "latin": "b",
@@ -56,6 +42,13 @@
     "connects": false
   },
   {
+    "name": "rra",
+    "kurdish": "ڕ",
+    "latin": "ř",
+    "hamza": false,
+    "connects": false
+  },
+  {
     "name": "za",
     "kurdish": "ز",
     "latin": "z",
@@ -67,6 +60,160 @@
     "kurdish": "ژ",
     "latin": "zh",
     "hamza": false,
+    "connects": false
+  },
+  {
+    "name": "ha",
+    "kurdish": "ح",
+    "latin": "ḥ",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "xa",
+    "kurdish": "خ",
+    "latin": "kh",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ja",
+    "kurdish": "ج",
+    "latin": "j",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "cha",
+    "kurdish": "چ",
+    "latin": "ch",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "sa",
+    "kurdish": "س",
+    "latin": "s",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "sha",
+    "kurdish": "ش",
+    "latin": "sh",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ha",
+    "kurdish": "ه",
+    "latin": "h",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ma",
+    "kurdish": "م",
+    "latin": "m",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "wa",
+    "kurdish": "و",
+    "latin": "w",
+    "hamza": false,
+    "connects": false
+  },
+  {
+    "name": "ya",
+    "kurdish": "ی",
+    "latin": "y",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "fa",
+    "kurdish": "ف",
+    "latin": "f",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "va",
+    "kurdish": "ڤ",
+    "latin": "v",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "qa",
+    "kurdish": "ق",
+    "latin": "q",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ka",
+    "kurdish": "ک",
+    "latin": "k",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ga",
+    "kurdish": "گ",
+    "latin": "g",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ah",
+    "kurdish": "ا",
+    "latin": "â",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "a",
+    "kurdish": "ە",
+    "latin": "a",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "ih",
+    "kurdish": "ی",
+    "latin": "î",
+    "hamza": true,
+    "connects": true
+  },
+  {
+    "name": "eh",
+    "kurdish": "ێ",
+    "latin": "e",
+    "hamza": true,
+    "connects": true
+  },
+  {
+    "name": "oh",
+    "kurdish": "ۆ",
+    "latin": "o",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "uh",
+    "kurdish": "و",
+    "latin": "u",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "uuh",
+    "kurdish": "وو",
+    "latin": "û",
+    "hamza": true,
     "connects": false
   }
 ]
