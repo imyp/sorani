@@ -1,0 +1,72 @@
+[
+  {
+    "name": "aleph",
+    "kurdish": "ا",
+    "latin": "â",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "a",
+    "kurdish": "ە",
+    "latin": "e",
+    "hamza": true,
+    "connects": false
+  },
+  {
+    "name": "ba",
+    "kurdish": "ب",
+    "latin": "b",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "pa",
+    "kurdish": "پ",
+    "latin": "p",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "ta",
+    "kurdish": "ت",
+    "latin": "t",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "na",
+    "kurdish": "ن",
+    "latin": "n",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "da",
+    "kurdish": "د",
+    "latin": "d",
+    "hamza": false,
+    "connects": false
+  },
+  {
+    "name": "ra",
+    "kurdish": "ر",
+    "latin": "r",
+    "hamza": false,
+    "connects": false
+  },
+  {
+    "name": "za",
+    "kurdish": "ز",
+    "latin": "z",
+    "hamza": false,
+    "connects": false
+  },
+  {
+    "name": "zha",
+    "kurdish": "ژ",
+    "latin": "zh",
+    "hamza": false,
+    "connects": false
+  }
+]
