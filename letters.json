@@ -169,6 +169,20 @@
     "connects": true
   },
   {
+    "name": "la",
+    "kurdish": "ل",
+    "latin": "l",
+    "hamza": false,
+    "connects": true
+  },
+  {
+    "name": "lla",
+    "kurdish": "ڵ",
+    "latin": "ł",
+    "hamza": false,
+    "connects": true
+  },
+  {
     "name": "ah",
     "kurdish": "ا",
     "latin": "â",
